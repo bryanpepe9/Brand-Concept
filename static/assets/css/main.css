@@ -4043,7 +4043,9 @@ input, select, textarea {
     }
 
     .card2 h5 {
-        align-self: start;
+        justify-self: right;
+        padding-bottom: 14%;
+        padding-right: 10%;
     }
 
     .card1 img, .card2 img, .card3 img, .card4 img, .card5 img {
@@ -4058,35 +4060,43 @@ input, select, textarea {
         justify-self: center;
         align-self: end;
         width: 100%;
-        top: 25%;
+        top: 35%;
+    }
+
+    .card1 .img2 {
+        align-self: end;
     }
 
     /* Making the image at the second cell relative so it overlaps its grid cell*/
     .card2 .img2 {
         position: relative;
-        justify-self: center;
+        justify-self: right;
         align-self: end;
-        top: -45%;
+        top: -32%;
     }
 
     /* Moving elements from card 3 grid so they look fluid */
     .card3 h5 {
+        position:relative;
+        justify-self: left;
         align-self: start;
+        top: -3%;
     }
 
     .card3 .img1 {
         width: 60%;
-        justify-self: center;
+        justify-self: left;
     }
 
     .card3 .img2 {
         position: relative;
         left: 30%;
+        width: 70%
     }
 
     .card3 .img3 {
         position: relative;
-        top: -72%;
+        top: -82%;
         left: 30%;
         width: 70%
     }
@@ -4094,16 +4104,19 @@ input, select, textarea {
 
     /* Making the image at the first cell relative so it overlaps its grid cell*/
     .card4 .img1 {
-        justify-self: center;
+        justify-self: right;
     }
 
     .card4 h5 {
+        justify-self: right;
         align-self: start;
+        padding-top: 6%;
+        padding-right: 8%
     }
 
     .card4 .img3 {
         position: relative;
-        top: -40%;
+        top: -51.5%;
     }
 
 
