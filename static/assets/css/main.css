@@ -3894,7 +3894,7 @@ input, select, textarea {
     }
 
     .carousel-inner .carousel-item {
-      height: 600px; /* Adjust the height as per your preference */
+      height: fit-content; /* Will adjust the height of the section based on the size of the content */
     }
 
     .col-md-4 {
